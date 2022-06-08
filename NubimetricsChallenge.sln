@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{43CFE23A-B50B-4043-BFDF-B0CC66165BB4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{06E632EC-3D8D-4001-9E66-F622DE2A98FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{33B4CB57-9648-4187-ADAB-1E4C0ED23861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01- Host", "01- Host", "{62720BAE-7464-4823-935F-270AF10431B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02- Core", "02- Core", "{25FA49C2-F789-459C-8837-E201CC71F0FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03- Infrastructure", "03- Infrastructure", "{F057823A-DE20-49A7-93F7-0DD46BFA68E1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NubimetricsChallenge.Infrastructure", "src\Infrastructure\NubimetricsChallenge.Infrastructure\NubimetricsChallenge.Infrastructure.csproj", "{543DE227-AE2C-4855-AE66-6060C2A67218}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NubimetricsChallenge.Domain", "src\Core\NubimetricsChallenge.Domain\NubimetricsChallenge.Domain.csproj", "{A2F32794-A108-42D2-B867-71151CA9AFA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NubimetricsChallenge.Application", "src\Core\NubimetricsChallenge.Application\NubimetricsChallenge.Application.csproj", "{984F1ADC-6C21-4D0A-AA5F-546A6AF9F260}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NubimetricsChallenge.WebAPI", "src\Host\NubimetricsChallenge.WebAPI\NubimetricsChallenge.WebAPI.csproj", "{852C120C-A89D-4470-B181-D867EFD20289}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04- Currency Console Project", "04- Currency Console Project", "{49F2128F-FE28-4A98-97C2-020071A8841C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NubimetricsChallengeCurrency.ConsoleApp", "src\CurrencyApp\NubimetricsChallengeCurrency.ConsoleApp\NubimetricsChallengeCurrency.ConsoleApp.csproj", "{E6AA98EB-FB80-41CF-BD4A-2A218E444811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NubimetricsChallenge.WebAPI.UnitTests", "tests\NubimetricsChallenge.WebAPI.UnitTests\NubimetricsChallenge.WebAPI.UnitTests.csproj", "{225AF032-294C-4068-8446-97FCDEC620D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{543DE227-AE2C-4855-AE66-6060C2A67218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543DE227-AE2C-4855-AE66-6060C2A67218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543DE227-AE2C-4855-AE66-6060C2A67218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543DE227-AE2C-4855-AE66-6060C2A67218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F32794-A108-42D2-B867-71151CA9AFA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F32794-A108-42D2-B867-71151CA9AFA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F32794-A108-42D2-B867-71151CA9AFA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F32794-A108-42D2-B867-71151CA9AFA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984F1ADC-6C21-4D0A-AA5F-546A6AF9F260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984F1ADC-6C21-4D0A-AA5F-546A6AF9F260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984F1ADC-6C21-4D0A-AA5F-546A6AF9F260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984F1ADC-6C21-4D0A-AA5F-546A6AF9F260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{852C120C-A89D-4470-B181-D867EFD20289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{852C120C-A89D-4470-B181-D867EFD20289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{852C120C-A89D-4470-B181-D867EFD20289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{852C120C-A89D-4470-B181-D867EFD20289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6AA98EB-FB80-41CF-BD4A-2A218E444811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6AA98EB-FB80-41CF-BD4A-2A218E444811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6AA98EB-FB80-41CF-BD4A-2A218E444811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6AA98EB-FB80-41CF-BD4A-2A218E444811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225AF032-294C-4068-8446-97FCDEC620D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225AF032-294C-4068-8446-97FCDEC620D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225AF032-294C-4068-8446-97FCDEC620D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225AF032-294C-4068-8446-97FCDEC620D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62720BAE-7464-4823-935F-270AF10431B0} = {06E632EC-3D8D-4001-9E66-F622DE2A98FE}
+		{25FA49C2-F789-459C-8837-E201CC71F0FC} = {06E632EC-3D8D-4001-9E66-F622DE2A98FE}
+		{F057823A-DE20-49A7-93F7-0DD46BFA68E1} = {06E632EC-3D8D-4001-9E66-F622DE2A98FE}
+		{543DE227-AE2C-4855-AE66-6060C2A67218} = {F057823A-DE20-49A7-93F7-0DD46BFA68E1}
+		{A2F32794-A108-42D2-B867-71151CA9AFA4} = {25FA49C2-F789-459C-8837-E201CC71F0FC}
+		{984F1ADC-6C21-4D0A-AA5F-546A6AF9F260} = {25FA49C2-F789-459C-8837-E201CC71F0FC}
+		{852C120C-A89D-4470-B181-D867EFD20289} = {62720BAE-7464-4823-935F-270AF10431B0}
+		{49F2128F-FE28-4A98-97C2-020071A8841C} = {06E632EC-3D8D-4001-9E66-F622DE2A98FE}
+		{E6AA98EB-FB80-41CF-BD4A-2A218E444811} = {49F2128F-FE28-4A98-97C2-020071A8841C}
+		{225AF032-294C-4068-8446-97FCDEC620D1} = {33B4CB57-9648-4187-ADAB-1E4C0ED23861}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F99F3481-6DB6-4BBB-B12A-497D4421DC00}
+	EndGlobalSection
+EndGlobal
